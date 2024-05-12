@@ -1,0 +1,33 @@
+.menu {
+    max-width: 1200px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.ceneo{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.menu-link{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.menu-item{
+    text-decoration: none;
+}
+
+.menu{
+    text-decoration: none;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+
