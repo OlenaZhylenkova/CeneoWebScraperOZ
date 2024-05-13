@@ -1,24 +1,31 @@
 .menu {
-    max-width: 1200px;
     display: flex;
     gap: 40px;
     justify-content: center;
-
+    align-items: center;
 }
 
 .ceneo{
     display: flex;
     justify-content: center;
     font-size: 32px;
+    background-color: #D7E5F0;
+    height: 80px;
+    align-items: center;
+    border-radius:30px ;
+
 }
 .menu-link{
     text-decoration: none;
     font-size: 24px;
-    color: black;
+    color: #73787C;
+
 }
 
 .menu-item{
     text-decoration: none;
+  
+   
 }
 
 .menu{
@@ -26,8 +33,16 @@
 }
 
 .footer {
-    color: white;
-    background-color: black;
+    color: #73787C;
+    background-color: #D7E5F0;
     height: 40px;
+    border-radius: 30px;
+}
+
+.footer-text{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
