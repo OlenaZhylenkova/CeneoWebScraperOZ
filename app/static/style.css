@@ -9,14 +9,6 @@ section{
     margin-left: 30px;
 }
 
-.ceneo {
-    transition: all 500ms;
-}
-    
-.ceneo:hover {
-    font-size-adjust: 20px;
-}
-
 .ceneo{
     display: flex;
     justify-content: center;
@@ -32,11 +24,34 @@ section{
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+span{
+    font-size: 32px;
+    margin-right: 5px;
+    font-weight: bold;
+    height: 80px;
+    color: #4e5254;
+}
+
+h2{
+    color: #4e5254;
+}
+
+.menu-item{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu{
+    text-decoration: none;
+}
+
 a {
-color: #73787C;
+    color: #4e5254;
   position: relative;
   text-decoration: none;
   font-size: 24px;
+  font-weight: 500;
 }
 
 a::before {
@@ -46,7 +61,7 @@ a::before {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: #73787C;
+  background-color: #4e5254;
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -62,24 +77,72 @@ a:hover::before {
 }
 
 a:hover{
-    color: #73787C;
+    color: #4e5254;
     text-decoration: none;
 }
-
-/* Presentational Styles */
 
 .header_text{
     margin-top: 20px;
 }
 
-.menu-item{
-    text-decoration: none;
-    list-style-type: none;
+.no-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.menu{
-    text-decoration: none;
+.form-div{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
 }
+
+.help-kod-span{
+    font-size: 12px;
+}
+
+label{
+    font-size: 24px;
+    color: #73787C;
+    margin-left: -20px;
+}
+
+input{
+    width: 215px;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 40px;
+    border-color: #4e5254;
+    border-width: 2px;
+}
+
+input:hover{
+    border-width: 3px;
+    transition: 0.3s;
+}
+
+p{
+    color: #73787C;
+}
+
+button{
+    height: 40px;
+    width: 170px;
+    margin-top: 45px;
+    border-radius: 20px;
+    background-color: #4e5254;
+    color: #D7E5F0;
+    border-color: #4e5254;
+}
+
+button:hover{
+    background-color: #D7E5F0;
+    color: #4e5254;
+    border-color: #D7E5F0;
+    transition: 0.5s;
+}
+
 
 .footer {
     color: #73787C;
@@ -133,6 +196,16 @@ a:hover{
 
 .header_text{
     color: #73787C;
+    margin-top: 30px;
+}
+
+.header_box{
+    background-color: #D7E5F0;
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
 
 .col-auto{
