@@ -1,7 +1,13 @@
 {%extends 'base.html'%}
 {%block content%}
     <h2 class="text-center header_text">Ekstrakcja opinii</h2>
-    <form action="" method ="post" class = "form">
+    {% if error is defined%}
+    <div class="alert alert-secondary" role="alert">
+        <strong></strong> {{error}}
+        <button type="button" class = "btn-close" data-bs-dismiss = "alert" aria-label="Close"></button>
+    </div>
+    {%endif%}
+    <form action="{{url_for('extract')}}" method ="post" class = "form">
         <div class="product_id row g-3 align-items-center" >
             <div class="col-auto">
                 <label for="product_id" class = "col-form-label">Kod produktu</label>

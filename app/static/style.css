@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+section{
+    margin-left: 30px;
+}
+
 .ceneo {
     transition: all 500ms;
 }
